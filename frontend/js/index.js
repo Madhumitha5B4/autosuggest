@@ -1,4 +1,30 @@
+const maleUser = {
+    name: "John Doe",
+    gender: "Male",
+    image: "../images/john.png"
+};
 
-alert("hello from js");
+const femaleUser = {
+    name: "Jane Doe",
+    gender: "Female",
+    image: "../images/jane.png"
+};
 
-console.log("hello from js:");
+let currentUser = maleUser;
+
+function toggleUser() {
+
+    currentUser =
+        currentUser.gender === "Male"
+            ? femaleUser
+            : maleUser;
+
+    document.getElementById("userName").innerText =
+        currentUser.name;
+
+    document.getElementById("userGender").innerText =
+        currentUser.gender;
+
+    document.getElementById("userImage").src =
+        currentUser.image;
+}
