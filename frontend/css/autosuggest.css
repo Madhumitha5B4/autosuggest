@@ -1,4 +1,3 @@
-
 .gear{
     position: fixed;
     top: 10px;
@@ -27,19 +26,19 @@
             color: #808080; 
             font-size: 18px;
         }
-        .search{
-    border-radius: 20px;
-    padding-left: 30px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+
+.main-content {
+    text-align : center;
 }
+
 .lens{
     position: relative;
-   /*ight: 20px;*/
-   left: 30px;
-
+    left : 30px;
 }
-.search-suggestions{
-
-}
+.search-box {
+    border-radius : 20px;
+    padding-left : 30px;
+    padding-right : 10px;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    }
