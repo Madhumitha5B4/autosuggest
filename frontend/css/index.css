@@ -50,3 +50,6 @@ body{
 .card button{
 margin: 20px;
 }
+.pill{
+    text-align: center;
+}

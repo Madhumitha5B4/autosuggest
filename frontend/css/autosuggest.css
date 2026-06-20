@@ -1,0 +1,45 @@
+
+.gear{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+.pill{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+.maincontent{
+    text-align: center;
+}
+.company-name {
+            font-family: Arial, sans-serif;
+            font-size: 48px;
+            font-weight: bold;
+        }
+.being {
+            color: #001aff; 
+        }
+.infinity {
+            color: #ad0d92; 
+        }
+.tagline {
+            color: #808080; 
+            font-size: 18px;
+        }
+        .search{
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.lens{
+    position: relative;
+   /*ight: 20px;*/
+   left: 30px;
+
+}
+.search-suggestions{
+
+}
